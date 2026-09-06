@@ -1,14 +1,14 @@
-# PSE em Ação
+**PSE em Ação**
 
 Sistema de Planejamento e Acompanhamento de Ações de Saúde na Escola.
 
-## Sobre o projeto
+**Sobre o projeto**
 
 Projeto da AEP do 2º semestre de 2026, do curso de Engenharia de Software da Unicesumar.
 
 A proposta é desenvolver um sistema em C, executado no terminal, para cadastrar e acompanhar ações de saúde realizadas nas escolas.
 
-## Funcionalidades
+**Funcionalidades**
 
 - Cadastrar ações
 - Listar ações
@@ -17,12 +17,12 @@ A proposta é desenvolver um sistema em C, executado no terminal, para cadastrar
 - Registrar participantes
 - Gerar um resumo geral
 
-## Tecnologias
+**Tecnologias**
 
 - Linguagem C
 - GitHub
 
-## Integrantes
+**Integrantes**
 
 - Anne Caroline Moreno Gouvea — RA: 26002536-2
 - Daniel Santos Conceição — RA: 26005497-2
