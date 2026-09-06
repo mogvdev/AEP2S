@@ -1,4 +1,4 @@
- PSE em Ação — Sistema de Planejamento e Acompanhamento de Ações de Saúde na Escola
+#PSE em Ação — Sistema de Planejamento e Acompanhamento de Ações de Saúde na Escola
 
 ## Sobre o projeto
 
