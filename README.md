@@ -1,40 +1,35 @@
 # PSE em Ação — Sistema de Planejamento e Acompanhamento de Ações de Saúde na Escola
 
-## 📌 Sobre o projeto
+## Sobre o projeto
 
-O **PSE em Ação** é um projeto acadêmico desenvolvido para a AEP do 2º semestre de 2026, dos cursos de Engenharia de Software.
+O PSE em Ação é um projeto acadêmico desenvolvido para a AEP do 2º semestre de 2026, do curso de Engenharia de Software da Unicesumar.
 
-O sistema consiste em uma aplicação simples executada em terminal, desenvolvida em linguagem C, com o objetivo de auxiliar no planejamento e acompanhamento de ações coletivas do Programa Saúde na Escola (PSE).
+O sistema será desenvolvido em linguagem C e executado em terminal. A proposta é organizar o cadastro e o acompanhamento de ações coletivas do Programa Saúde na Escola (PSE).
 
-## 🎯 Objetivo
+## Funcionalidades
 
-Organizar informações sobre ações de saúde realizadas nas escolas, permitindo o cadastro, a consulta e o acompanhamento de atividades planejadas.
+- Cadastrar ações.
+- Listar ações cadastradas.
+- Pesquisar por código, escola ou tema.
+- Atualizar a situação das ações.
+- Registrar a quantidade de participantes.
+- Gerar um resumo geral.
 
-## ⚙️ Funcionalidades previstas
-
-- Cadastro de ações do PSE.
-- Listagem de ações cadastradas.
-- Pesquisa por código, escola ou tema.
-- Atualização da situação da ação.
-- Registro da quantidade efetiva de participantes.
-- Geração de resumo geral das ações.
-
-## 💻 Tecnologias utilizadas
+## Tecnologias
 
 - Linguagem C
 - GitHub
-- Portugol
 
-## 👥 Integrantes
+## Integrantes
 
-- **Anne Caroline Moreno Gouvea** — RA: 26002536-2
-- **Daniel Santos Conceição** — RA: 26005497-2
-- **Patrick Souza de Oliveira** — RA: 25363907-2
+- Anne Caroline Moreno Gouvea — RA: 26002536-2
+- Daniel Santos Conceição — RA: 26005497-2
+- Patrick Souza de Oliveira — RA: 25363907-2
 
-## 📚 Contexto acadêmico
+## Contexto acadêmico
 
-Projeto desenvolvido para a **AEP — 2º semestre de 2026**, com foco na aplicação de conceitos introdutórios de programação, algoritmos e Engenharia de Software.
+Projeto desenvolvido para a AEP do 2º semestre de 2026.
 
-## 🔒 Observação
+## Observação
 
-O sistema utilizará apenas **dados fictícios e informações coletivas**, sem armazenamento de dados sensíveis individuais de estudantes.
+O sistema utilizará dados fictícios e informações coletivas, sem dados sensíveis individuais de estudantes.
