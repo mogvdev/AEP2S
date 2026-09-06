@@ -21,9 +21,10 @@ A proposta é desenvolver um sistema em C, executado no terminal, para cadastrar
 
 - Linguagem C
 - GitHub
+- Portugol
 
 **INTEGRANTES**
 
-- Anne Caroline Moreno Gouvea — RA: 26002536-2
-- Daniel Santos Conceição — RA: 26005497-2
-- Patrick Souza de Oliveira — RA: 25363907-2
+- Anne Caroline Moreno Gouvea  — RA: 26002536-2
+- Daniel Santos Conceição      — RA: 26005497-2
+- Patrick Souza de Oliveira    — RA: 25363907-2
