@@ -6,7 +6,7 @@ Sistema de Planejamento e Acompanhamento de Ações de Saúde na Escola.
 
 Projeto da AEP do 2º semestre de 2026, do curso de Engenharia de Software da Unicesumar.
 
-A proposta é desenvolver um sistema em C, executado no terminal, para cadastrar e acompanhar ações do Programa Saúde na Escola.
+A proposta é desenvolver um sistema em C, executado no terminal, para cadastrar e acompanhar ações de saúde realizadas nas escolas.
 
 ## Funcionalidades
 
@@ -21,7 +21,6 @@ A proposta é desenvolver um sistema em C, executado no terminal, para cadastrar
 
 - Linguagem C
 - GitHub
-- Portugol
 
 ## Integrantes
 
