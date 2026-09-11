@@ -27,3 +27,18 @@ A proposta é desenvolver um sistema em C, executado no terminal, para cadastrar
 - Anne Caroline Moreno Gouvea  — RA: 26002536-2
 - Daniel Santos Conceição      — RA: 26005497-2
 - Patrick Souza de Oliveira    — RA: 25363907-2
+
+O repositório está organizado da seguinte forma:
+
+```text
+AEP-2-SEMESTRE/
+└── Documentação/
+  └── Fluxogramas/
+      ├── fluxograma geral.jpeg
+      └── fluxograma pesquisa.jpeg
+  └── Produção Textual/
+      └── AEP ESOFT 2S MA.pdf
+  └── Requisitos/
+      └── requisitos.md
+└── README.md
+```
