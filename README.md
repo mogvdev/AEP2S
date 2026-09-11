@@ -20,8 +20,7 @@ A proposta é desenvolver um sistema em C, executado no terminal, para cadastrar
 **TECNOLOGIAS**
 
 - Linguagem C
-- GitHub
-- Portugol
+- Git
 
 **INTEGRANTES**
 
