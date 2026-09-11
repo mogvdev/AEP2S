@@ -31,7 +31,7 @@ A proposta é desenvolver um sistema em C, executado no terminal, para cadastrar
 O repositório está organizado da seguinte forma:
 
 ```text
-AEP-2-SEMESTRE/
+AEP2S/
 └── Documentação/
   └── Fluxogramas/
       ├── fluxograma geral.jpeg
