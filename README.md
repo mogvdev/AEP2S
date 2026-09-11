@@ -28,6 +28,7 @@ A proposta é desenvolver um sistema em C, executado no terminal, para cadastrar
 - Daniel Santos Conceição      — RA: 26005497-2
 - Patrick Souza de Oliveira    — RA: 25363907-2
 
+
 **O repositório está organizado da seguinte forma:**
 
 ```text
