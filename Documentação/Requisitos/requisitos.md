@@ -39,5 +39,5 @@ O sistema deverá utilizar somente dados fictícios e informações coletivas, n
 As informações deverão permanecer armazenadas em memória durante a execução do programa, sendo opcional o uso de arquivos como melhoria adicional.
 
 ### RNF05 – Organização do código
-O sistema deverá ser dividido em funções com responsabilidades claras, evitando concentrar toda a lógica na função
+O sistema deverá ser dividido em funções com responsabilidades claras, evitando concentrar toda a lógica na função.
 
