@@ -1,35 +1,47 @@
 #include <stdio.h>
 #include <stdlib.h>
 
+void menu(int op) {
+	printf("Escolha uma opcao\n\t1 - Cadastro\n\t2 - Pesquisa\n\t3 - Atualizacao de situacao\n\t4 - Geracao de resumo\n\t5 - Sair do programa\nR: ");
+    scanf("%d", &op);
+}
 void cadastro(){
 
 }
-void pesquisa(int criterio, char registro[50]){
-    printf("\n======= ABRINDO O PROCESSO DE PESQUISA =======\nEscolha o criterio da pesquisa\n\t1 - Codigo\n\t2 - Escola\n\t3 - Tema\n");
+void pesquisa(int criterio, char registro[], char resposta, int op){
+    printf("\n============== INICIANDO O PROCESSO DE PESQUISA ==============\nEscolha o criterio da pesquisa\n\t1 - Codigo\n\t2 - Escola\n\t3 - Tema\nR: ");
     scanf("%d", &criterio);
 
     while (criterio < 1 || criterio > 3) {
-        printf("\tCriterio invalido. Insira outro: ");
+        printf("Criterio invalido. Insira outro: ");
         scanf("%d", &criterio);
     }
 
     printf("Insira o registro a ser pesquisado: ");
-    scanf("%s", &registro);
+    scanf("%s", registro);
     
     switch (criterio) {
         case 1:
-            printf("Criterio escolhido = Codigo");
+            printf("\nCriterio escolhido = Codigo");
         break;
         case 2:
-            printf("Criterio escolhido = Escola");
+            printf("\nCriterio escolhido = Escola");
         break;
         case 3:
-            printf("Criterio escolhido = Tema");
+            printf("\nCriterio escolhido = Tema");
         break;
     }
-    printf("\nRegistro escolhido = %s\n======= PESQUISANDO =======", registro);
+    printf(" / Registro escolhido = %s\n\n======= PESQUISANDO =======", registro);
 
     // fazer BUSCA DOS REGISTROS CORRESPONDENTES
+    
+    printf("\nVoce deseja fazer outra pesquisa? (S ou N): ");
+    scanf("%c", &resposta);
+    if (resposta != "S") {
+    	printf("\n======= RETORNANDO PARA O MENU =======\n");
+    	menu(op);
+	}
+    
 
 }
 void atualSituacao(){
@@ -41,9 +53,10 @@ void geraResumo(){
 
 int main() {
     int op, criterioPesquisa;
-    char registroPesquisa[50];
-    printf("Escolha uma opcao\n\t1 - Cadastro\n\t2 - Pesquisa\n\t3 - Atualizacao de situacao\n\t4 - Geracao de resumo\n\t5 - Sair do programa\n");
-    scanf("%d", &op);
+    char registroPesquisa[50], resposta;
+    menu(op);
+    
+    printf("%d", op);
 
     while (op != 5) {
         switch(op) {
@@ -51,7 +64,7 @@ int main() {
                 cadastro();
             break;
             case 2:
-                pesquisa(criterioPesquisa, registroPesquisa);
+                pesquisa(criterioPesquisa, registroPesquisa, resposta, op);
             break;
             case 3:
                 atualSituacao();
