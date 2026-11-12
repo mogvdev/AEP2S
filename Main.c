@@ -1,14 +1,15 @@
 #include <stdio.h>
 #include <stdlib.h>
 
-void menu(int op) {
+void menu() {
 	printf("Escolha uma opcao\n\t1 - Cadastro\n\t2 - Pesquisa\n\t3 - Atualizacao de situacao\n\t4 - Geracao de resumo\n\t5 - Sair do programa\nR: ");
-    scanf("%d", &op);
 }
+
 void cadastro(){
 
 }
-void pesquisa(int criterio, char registro[], char resposta, int op){
+
+void pesquisa(int criterio, char registro[], char *resposta){
     printf("\n============== INICIANDO O PROCESSO DE PESQUISA ==============\nEscolha o criterio da pesquisa\n\t1 - Codigo\n\t2 - Escola\n\t3 - Tema\nR: ");
     scanf("%d", &criterio);
 
@@ -18,7 +19,7 @@ void pesquisa(int criterio, char registro[], char resposta, int op){
     }
 
     printf("Insira o registro a ser pesquisado: ");
-    scanf("%s", registro);
+    scanf("%50s", registro);
     
     switch (criterio) {
         case 1:
@@ -36,35 +37,34 @@ void pesquisa(int criterio, char registro[], char resposta, int op){
     // fazer BUSCA DOS REGISTROS CORRESPONDENTES
     
     printf("\nVoce deseja fazer outra pesquisa? (S ou N): ");
-    scanf("%c", &resposta);
-    if (resposta != "S") {
-    	printf("\n======= RETORNANDO PARA O MENU =======\n");
-    	menu(op);
-	}
-    
-
+    scanf(" %c", resposta);
+    printf("%c", *resposta);
 }
+
 void atualSituacao(){
 
 }
+
 void geraResumo(){
 
 }
 
 int main() {
-    int op, criterioPesquisa;
+    int op = 0, criterioPesquisa;
     char registroPesquisa[50], resposta;
-    menu(op);
-    
-    printf("%d", op);
 
     while (op != 5) {
+    menu();
+    scanf("%d", &op);
+    printf("%d", op);
         switch(op) {
             case 1:
                 cadastro();
             break;
             case 2:
-                pesquisa(criterioPesquisa, registroPesquisa, resposta, op);
+                pesquisa(criterioPesquisa, registroPesquisa, &resposta);
+                if (resposta != 'N') pesquisa(criterioPesquisa, registroPesquisa, &resposta);
+                printf("\n======= RETORNANDO PARA O MENU =======\n");
             break;
             case 3:
                 atualSituacao();
@@ -73,7 +73,7 @@ int main() {
                 geraResumo();
             break;
             default:
-                printf("Opcao invalida. Insira outra: ");
+                printf("Opcao invalida (%d). Insira outra: ", op);
                 scanf("%d", &op);
             break;
         }
