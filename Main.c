@@ -7,11 +7,15 @@ void menu(int op) {
 	system("cls");
 	if (op == 0) printf("======= BEM-VINDO =======\n");
 	else printf("======= RETORNANDO PARA O MENU =======\n");
-	printf("Escolha uma opcao\n\t1 - Cadastro\n\t2 - Pesquisa\n\t3 - Atualizacao de situacao\n\t4 - Geracao de resumo\n\t5 - Sair do programa\nR: ");
+	printf("Escolha uma opcao\n\t1 - Cadastro\n\t\n\t2 - Lista de acoes\n\t3 - Pesquisa\n\t4 - Atualizacao de situacao\n\t5 - Registro de participantes\n\t6 - Geracao de resumo\n\t7 - Sair do programa\nR: ");
 }
 
 void cadastro(){
 
+}
+
+void lista(){
+	
 }
 
 void pesquisa(char *resposta){
@@ -70,6 +74,10 @@ void atualSituacao(){
 
 }
 
+void regParticip(){
+	
+}
+
 void geraResumo(){
 
 }
@@ -80,24 +88,28 @@ int main() {
     char resposta;
 
 	// loop de executar cada opcao e voltar para o menu
-    while (op != 5) {
+    while (op != 7) {
     menu(op);
     scanf("%d", &op);
         switch(op) {
             case 1:
                 cadastro();
             break;
-            case 2:
+			case 2:
+				lista();
+            case 3:
                 pesquisa(&resposta);
                 while (resposta == 'S') pesquisa(&resposta); // continuacao da repeticao da funcao
             break;
-            case 3:
+            case 4:
                 atualSituacao();
             break;
-            case 4:
+			case 5:
+				rigParticip();
+            case 6:
                 geraResumo();
             break;
-            case 5:
+            case 7:
     			printf("\nObrigado por utilizar o programa!");
             break;
             default:
