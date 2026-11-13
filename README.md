@@ -4,6 +4,10 @@
 
 **AEP — Engenharia de Software | 2º semestre**
 
+Anne Caroline Moreno Gouvea  RA: 26002536-2
+Daniel Santos Conceição      RA: 26005497-2
+Patrick Souza de Oliveira    RA: 25363907-2
+
 ---
 
 ## 1. Objetivo
