@@ -26,7 +26,7 @@ Os dados ficam salvos no arquivo `acoes.txt`, portanto não são perdidos quando
 
 ## 2. Como compilar e executar
 
-### 2.1 Dev-C++ ou Code::Blocks (Windows)
+### 2.1 Dev-C++ ou Code: Blocks (Windows)
 
 1. Abra o arquivo `pse.c`.
 2. Clique em **Compilar e Executar** (F11 no Dev-C++).
