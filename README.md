@@ -11,6 +11,7 @@
 *Patrick Souza de Oliveira*       RA: 25363907-2
 
 ---
+Vídeo no Youtube: https://www.youtube.com/watch?v=9djj3iWpZwM&t=1s
 
 ## 1. Objetivo
 
